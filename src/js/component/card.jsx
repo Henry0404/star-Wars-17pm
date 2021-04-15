@@ -8,7 +8,7 @@ import { Card } from "react-bootstrap";
 
 import { Link, useParams } from "react-router-dom";
 
-import "../../styles/home.scss";
+import "../../styles/home.css";
 
 export const CardTemplate = props => {
 	const { store, actions } = useContext(Context);

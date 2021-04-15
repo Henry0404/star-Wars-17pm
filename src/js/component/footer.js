@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import "../../styles/footer.scss";
+import "../../styles/footer.css";
 
 export const Footer = () => (
 	<footer className="container-fluid footer">

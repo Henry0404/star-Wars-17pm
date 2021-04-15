@@ -6,7 +6,7 @@ import { Context } from "../store/appContext";
 import { Button, Container } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
-import "../../styles/details.scss";
+import "../../styles/details.css";
 
 export const Detailsplanet = props => {
 	const { store, actions } = useContext(Context);
