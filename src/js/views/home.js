@@ -27,7 +27,7 @@ export const Home = () => {
 					actions.captureItem(item.name);
 				}}
 				key={index.toString()}
-				description={"Oh que planeta tan chulo"}
+				description={"Que hermoso planeta"}
 			/>
 		);
 	});
@@ -44,7 +44,7 @@ export const Home = () => {
 					actions.captureItem(item.name);
 				}}
 				key={index.toString()}
-				description={"Que mareo me da esta nave"}
+				description={""}
 			/>
 		);
 	});
@@ -61,7 +61,7 @@ export const Home = () => {
 					actions.captureItem(item.name);
 				}}
 				key={index.toString()}
-				description={"Que la fuerza te acompañe"}
+				description={"Que viva la fuerza oscura"}
 			/>
 		);
 	});
