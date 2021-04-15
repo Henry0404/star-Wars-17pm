@@ -2,11 +2,11 @@ const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
 			starShipsList: [],
-			urlStored: "https://www.swapi.tech/api/starships",
+			urlStored: "https://www.swapi.tech/api/starships/",
 			characters: [],
-			urlPeople: "https://www.swapi.tech/api/people",
+			urlPeople: "https://www.swapi.tech/api/people/",
 			planets: [],
-			urlPlanets: "https://www.swapi.tech/api/planets",
+			urlPlanets: "https://www.swapi.tech/api/planets/",
 			details: [],
 			favorites: [],
 			nameDeleteFav: "",

@@ -37,7 +37,6 @@ export const Navbars = () => {
 								StarShips
 							</Link>
 						</Nav>
-						<Grouped />
 						<Favorites />
 					</Navbar.Collapse>
 				</Container>
