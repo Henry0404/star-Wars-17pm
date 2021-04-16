@@ -21,7 +21,7 @@ export const CardTemplate = props => {
 				<Card.Text className="descriptionCard">{props.description}</Card.Text>
 				<div className="d-flex justify-content-between">
 					<Link to={props.category + props.name.replace(" ", "_")}>
-						<button className="cardButton btn btn-outline-warning">More Details</button>
+						<button className="cardButton btn btn-outline-warning">Más detalles</button>
 					</Link>
 					<button className="btn btn-outline-warning" onClick={props.click}>
 						<i className="fas fa-heart" />

@@ -10,9 +10,6 @@ import { Footer } from "./component/footer";
 import { Detailsplanet } from "./views/detailsplanets.jsx";
 import { Detailspeople } from "./views/detailspeople.jsx";
 import { Detailsstarships } from "./views/detailsstarships.jsx";
-import { Planets } from "./views/planets.jsx";
-import { Characters } from "./views/characters.jsx";
-import { StarShips } from "./views/starships.jsx";
 
 //create your first component
 const Layout = () => {
@@ -37,15 +34,6 @@ const Layout = () => {
 						</Route>
 						<Route exact path="/starships/:id">
 							<Detailsstarships />
-						</Route>
-						<Route exact path="/planets/">
-							<Planets />
-						</Route>
-						<Route exact path="/people/">
-							<Characters />
-						</Route>
-						<Route exact path="/starships/">
-							<StarShips />
 						</Route>
 						<Route>
 							<h1>Not found!</h1>

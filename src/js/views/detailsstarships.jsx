@@ -86,8 +86,8 @@ export const Detailsstarships = props => {
 						</li>
 					</ul>
 				</div>
-				<Link to="/starships/" className="button d-flex justify-content-center mb-3">
-					<button className="btn btn-outline-warning btn-lg">GO BACK</button>
+				<Link to="/" className="button d-flex justify-content-center mb-3">
+					<button className="btn btn-outline-warning btn-lg">REGRESAR</button>
 				</Link>
 			</div>
 		</content>

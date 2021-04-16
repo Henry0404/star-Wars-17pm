@@ -66,8 +66,8 @@ export const Detailspeople = props => {
 						</li>
 					</ul>
 				</div>
-				<Link to="/people/" className="d-flex justify-content-center mb-3">
-					<button className="btn btn-outline-warning btn-lg">GO BACK</button>
+				<Link to="/" className="d-flex justify-content-center mb-3">
+					<button className="btn btn-outline-warning btn-lg">REGRESAR</button>
 				</Link>
 			</div>
 		</content>

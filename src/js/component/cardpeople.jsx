@@ -7,7 +7,11 @@ export const Cards = (props) => {
   return (
     <>
       <Card style={{ width: "18rem" }} className="mb-5">
-        <Card.Img variant="top" src={props.img} />
+        <Card.Img
+          variant="top"
+          src={`https://starwars-visualguide.com/assets/img/characters/${i +
+            1}.jpg`}
+        />
         <Card.Body>
           <Card.Title>{props.name}</Card.Title>
           <p>Eye color: {props.eyeColor}</p>

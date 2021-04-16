@@ -87,7 +87,7 @@ export const Home = () => {
 		<>
 			<Container className="mb-2">
 				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
-					<h1 className="titlesHome mt-2">CHARACTERS</h1>
+					<h1 className="titlesHome mt-2">PERSONAJES</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
 					{listPeople}
@@ -96,7 +96,7 @@ export const Home = () => {
 
 			<Container className="mb-2">
 				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
-					<h1 className="titlesHome mt-2">PLANETS</h1>
+					<h1 className="titlesHome mt-2">PLANETAS</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
 					{listPlanets}
@@ -105,7 +105,7 @@ export const Home = () => {
 
 			<Container className="mb-2">
 				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
-					<h1 className="titlesHome mt-2">STARSHIPS</h1>
+					<h1 className="titlesHome mt-2">NAVES</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
 					{listStartShips}
