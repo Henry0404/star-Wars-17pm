@@ -1,12 +1,23 @@
 body {
-  background-color: white;
+  background-image: url(https://wallpapermemory.com/uploads/535/star-wars-background-full-hd-1920x1080-459059.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  background-repeat: repeat;
-  font-family: "Big Shoulders Display", cursive;
-  font-size: 1rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
+.titlesHome {
+  color: white;
+}
+.barra {
+  background: rgb(7, 9, 9);
+  background: linear-gradient(
+    0deg,
+    rgba(7, 9, 9, 1) 21%,
+    rgb(144, 23, 23) 100%
+  );
+}
 .buttonsMenu {
   font-size: 2rem;
 }
@@ -36,7 +47,7 @@ body {
 }
 
 .navbar-toggler {
-  background-color: orange;
+  background-color: red;
 }
 
 .titlesHome {

@@ -86,7 +86,7 @@ export const Home = () => {
 	return (
 		<>
 			<Container className="mb-2">
-				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
+				<div className="barra d-flex justify-content-center align-items-center mt-1">
 					<h1 className="titlesHome mt-2">PERSONAJES</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
@@ -95,7 +95,7 @@ export const Home = () => {
 			</Container>
 
 			<Container className="mb-2">
-				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
+				<div className="barra d-flex justify-content-center align-items-center mt-1">
 					<h1 className="titlesHome mt-2">PLANETAS</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
@@ -104,7 +104,7 @@ export const Home = () => {
 			</Container>
 
 			<Container className="mb-2">
-				<div className="d-flex justify-content-center align-items-center bg-warning mt-1">
+				<div className="barra d-flex justify-content-center align-items-center mt-1">
 					<h1 className="titlesHome mt-2">NAVES</h1>
 				</div>
 				<Carousel className="d-flex flex-row ml-auto" responsive={responsive}>
